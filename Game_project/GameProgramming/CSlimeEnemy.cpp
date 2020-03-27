@@ -39,14 +39,9 @@ void CSlimeEnemy::Update(){
 	}
 	z = y;
 
-<<<<<<< .mine
-||||||| .r3417
-	
-=======
 	if (mHitPoint <= 0){
 		mEnabled = false;
 	}
->>>>>>> .r3422
 }
 
 void CSlimeEnemy::Render() {
@@ -133,7 +128,6 @@ void CSlimeEnemy::Collision(CTask*task){
 	if (CRectangle::Collision(*rect)){
 		switch (rect->mTag){
 		case EATTACK:
-<<<<<<< .mine
 			//mEnabled = false;
 			mHitPoint -= mDamage;
 
@@ -154,25 +148,15 @@ void CSlimeEnemy::Collision(CTask*task){
 			//	mEffect->y = y + 20;
 			//}
 
-||||||| .r3417
 			mEnabled = false;
 			//mHitPoint -= mDamage;
-=======
 
 			mHitPoint -= mDamage;
->>>>>>> .r3422
 			break;
-<<<<<<< .mine
 
 		case EDEATHBLOW:
 			mEnabled = false;
 			break;
-||||||| .r3417
-		case EDEATHBLOW:
-			mEnabled = false;
-			break;
-=======
->>>>>>> .r3422
 		}
 	}
 }

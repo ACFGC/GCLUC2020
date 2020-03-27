@@ -156,13 +156,8 @@ void CSceneGame::Update() {
 	//s—ñ‚ğ‰Šú‰»
 	glLoadIdentity();
 
-<<<<<<< .mine
-	//if (CMistress::mpMistress->mHitPoint==700){
-||||||| .r3317
 	if (CMistress::mpMistress->mHitPoint==700){
-=======
-	if (CMistress::mpMistress->mHitPoint==350){
->>>>>>> .r3417
+		if (CMistress::mpMistress->mHitPoint==350){
 
 	//	mLeft = CMistress::mpMistress->x - 500;
 	//	mRight = CMistress::mpMistress->x + 500;
@@ -172,10 +167,10 @@ void CSceneGame::Update() {
 	//		mLeft = CPlayer::mpPlayer->x - 200;
 	//		mRight = CPlayer::mpPlayer->x + 1080;
 
-	//	}
+		}
 
 
-	//}
+	}
 
 	
 	
